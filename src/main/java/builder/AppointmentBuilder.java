@@ -54,7 +54,7 @@ public class AppointmentBuilder {
 		return this;
 	}
 
-//	public Appointment build() {
-//		return new Appointment(id, title, category, start, null, end, null, description, place);
-//	}
+	public Appointment build() {
+		return new Appointment(id, title, category, start, null, end, null, description, place);
+	}
 }
